@@ -1,0 +1,260 @@
+-- Exe's SS
+-- V5
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local Login = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Username = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Password = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local Login_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Shadow = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Tit = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local Executor = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Clear = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local Tit_2 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Execute = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local CodeBox = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Login.Name = "Login"
+Login.Parent = Main
+Login.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Login.Position = UDim2.new(0.392, 0,0.272, 0)
+Login.Size = UDim2.new(0, 276, 0, 322)
+Login.Selectable = true
+Login.Draggable = true
+Login.Active = true
+
+UICorner.Parent = Login
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(179, 179, 179)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = 450
+UIGradient.Parent = Login
+
+Username.Name = "Username"
+Username.Parent = Login
+Username.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+Username.Position = UDim2.new(0.137681171, 0, 0.267080754, 0)
+Username.Size = UDim2.new(0, 200, 0, 50)
+Username.Font = Enum.Font.Code
+Username.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Username.PlaceholderText = "Username"
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+UICorner_2.Parent = Username
+
+Password.Name = "Password"
+Password.Parent = Login
+Password.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+Password.Position = UDim2.new(0.137681171, 0, 0.521739125, 0)
+Password.Size = UDim2.new(0, 200, 0, 50)
+Password.Font = Enum.Font.Code
+Password.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Password.PlaceholderText = "Password"
+Password.Text = ""
+Password.TextColor3 = Color3.fromRGB(255, 255, 255)
+Password.TextScaled = true
+Password.TextSize = 14.000
+Password.TextWrapped = true
+
+UICorner_3.Parent = Password
+
+Login_2.Name = "Login"
+Login_2.Parent = Login
+Login_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Login_2.Position = UDim2.new(0.137681171, 0, 0.754658401, 0)
+Login_2.Size = UDim2.new(0, 200, 0, 50)
+Login_2.Font = Enum.Font.Code
+Login_2.Text = "Login"
+Login_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login_2.TextScaled = true
+Login_2.TextSize = 14.000
+Login_2.TextWrapped = true
+
+UICorner_4.Parent = Login_2
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Login
+Shadow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow.Position = UDim2.new(0.0869565234, 0, 0.0434782617, 0)
+Shadow.Size = UDim2.new(0, 222, 0, 50)
+Shadow.Font = Enum.Font.SourceSans
+Shadow.Text = " "
+Shadow.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shadow.TextSize = 14.000
+
+UICorner_5.Parent = Shadow
+
+Tit.Name = "Tit"
+Tit.Parent = Shadow
+Tit.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Tit.Position = UDim2.new(0.0320633911, 0, -0.0165216066, 0)
+Tit.Size = UDim2.new(0, 227, 0, 50)
+Tit.Font = Enum.Font.Code
+Tit.Text = "Exe's SS"
+Tit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tit.TextScaled = true
+Tit.TextSize = 14.000
+Tit.TextWrapped = true
+
+UICorner_6.Parent = Tit
+
+Executor.Name = "Executor"
+Executor.Parent = Main
+Executor.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Executor.Position = UDim2.new(0.559, 0,0.423, 0)
+Executor.Size = UDim2.new(0, 547, 0, 322)
+Executor.Visible = false
+Executor.Selectable = true
+Executor.Draggable = true
+Executor.Active = true
+
+UICorner_7.Parent = Executor
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(179, 179, 179)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = 450
+UIGradient_2.Parent = Executor
+
+Clear.Name = "Clear"
+Clear.Parent = Executor
+Clear.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Clear.Position = UDim2.new(0.583750665, 0, 0.714285731, 0)
+Clear.Size = UDim2.new(0, 200, 0, 50)
+Clear.Font = Enum.Font.Code
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+UICorner_8.Parent = Clear
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Executor
+Shadow_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_2.Position = UDim2.new(0.0558779128, 0, 0.0434782617, 0)
+Shadow_2.Size = UDim2.new(0, 222, 0, 50)
+Shadow_2.Font = Enum.Font.SourceSans
+Shadow_2.Text = " "
+Shadow_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shadow_2.TextSize = 14.000
+
+UICorner_9.Parent = Shadow_2
+
+Tit_2.Name = "Tit"
+Tit_2.Parent = Shadow_2
+Tit_2.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Tit_2.Position = UDim2.new(0.0320633911, 0, -0.0165216066, 0)
+Tit_2.Size = UDim2.new(0, 227, 0, 50)
+Tit_2.Font = Enum.Font.Code
+Tit_2.Text = "Exe's SS"
+Tit_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tit_2.TextScaled = true
+Tit_2.TextSize = 14.000
+Tit_2.TextWrapped = true
+
+UICorner_10.Parent = Tit_2
+
+Execute.Name = "Execute"
+Execute.Parent = Executor
+Execute.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Execute.Position = UDim2.new(0.583750665, 0, 0.481366456, 0)
+Execute.Size = UDim2.new(0, 200, 0, 50)
+Execute.Font = Enum.Font.Code
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+
+UICorner_11.Parent = Execute
+
+ScrollingFrame.Parent = Executor
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0127970753, 0, 0.257763982, 0)
+ScrollingFrame.Size = UDim2.new(0, 306, 0, 214)
+
+
+CodeBox.Name = "CodeBox"
+CodeBox.Parent = ScrollingFrame
+CodeBox.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+CodeBox.Position = UDim2.new(-0.00297317095, 0, 0, 0)
+CodeBox.Size = UDim2.new(0, 306, 0, 999)
+CodeBox.Font = Enum.Font.Code
+CodeBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+CodeBox.PlaceholderText = "Script Here"
+CodeBox.Text = ""
+CodeBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CodeBox.TextSize = 29.000
+CodeBox.TextWrapped = true
+CodeBox.TextXAlignment = Enum.TextXAlignment.Left
+CodeBox.TextYAlignment = Enum.TextYAlignment.Top
+CodeBox.MultiLine = true
+
+UICorner_12.Parent = CodeBox
+
+-- Functions
+
+Login_2.MouseButton1Click:Connect(function()
+if Username.Text == "" and Password.Text == "" then
+		Login_2.Text = "Please complete everything"
+		wait(1)
+		Login_2.Text = "Login"
+	else
+		if Username.Text == game.Players.LocalPlayer.Name and Password.Text == "" then
+			Login_2.Text = "Please enter password"
+			wait(1)
+			Login_2.Text = "Login"
+		else
+			if Username.Text == "" then
+				Login_2.Text = "Please enter Username"
+				wait(1)
+				Login_2.Text = "Login"
+		else
+			if Username.Text == game.Players.LocalPlayer.Name then
+				Executor.Visible = true
+				Login.Visible = false
+			end
+		end
+	end
+	end
+end)
+
+Execute.MouseButton1Click:Connect(function()
+	loadstring(CodeBox.Text)
+end)
+
+Clear.MouseButton1Click:Connect(function()
+	CodeBox.Text = ""
+end)
